@@ -1,0 +1,123 @@
+
+  *{
+      margin: 0;
+      max-width: auto;
+  }
+/* NAVBAR */
+.navItems{
+    height:80%;
+  }
+  
+  .nav-logo {
+    height: 120px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    list-style: none;
+  }
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: pink;
+    width: 100%;
+}
+
+.text-primary{
+    text-align: center;
+}
+
+.btn{
+    display: flex; 
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #ff0066;
+    transition: 1s;
+    border: solid black 2px;
+}
+.btn:hover{
+    background: pink;
+    color: #333;
+    border: solid black 2px;
+}
+.forminput{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#showcase .content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .content h1 h2{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+#contact .forminput{
+     margin-bottom: 10px;
+ }
+#contact label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact input, 
+#contact textarea{
+    width: 50vh;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact textarea{
+    height: 200px;
+}
+#contact{
+    align-content: center;
+}
+#slide{
+    display: flex;
+    text-align: center;
+    height: 300px;
+    margin: auto;
+}
+.logos{
+    height: 40px;
+}
+.pointinguparrow{
+    height: 25px;
+    float: right;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  a:visited {
+    color: white;
+  }
+  
+  
+  a:hover {
+    color: rgb(255, 0, 98);
+  }
+  
+  a:active {
+    color:white;
+  }
+  @media only screen and (max-width: 530px) {
+    .forminput {
+       margin: 0; 
+    }
+}
